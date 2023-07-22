@@ -1,0 +1,194 @@
+    /*:root {
+        --blue: #2196F3;
+        --white: #ffffff; 
+        --gray:#2F303A;
+    }*/
+
+    /* Logo */
+    .logo{
+        font-size: 26px;
+        line-height: 30.52px; 
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700; 
+    }
+    .logo_1{
+        color:#2196F3;
+    }
+    .logo_2{
+        color:#000000;
+            margin-left: -9px;
+    }
+    /*Header Section*/
+    .headerSection{
+        display: inline-block;
+    }
+
+    /*Header Section >> Nav Section*/
+    .headerSection ul{
+        list-style-type: none;
+    }
+    .headerSection ul li{
+        display: inline-block;
+    }
+    .headerSection ul li a{
+        text-decoration: none;
+        font-family: Roboto , sans-serif;
+        color:#000000;
+        font-weight: 700;
+        font-size: 18px;
+        padding-left: 20px;
+    }
+    .headerSection ul li a:hover{
+        color:#2196F3;
+    }
+    /*Contact Section*/
+    .contact{
+        margin-left: 160px;
+        /*padding-left: 40%;*/
+        font-weight: 700;
+        font-size: 18px;
+        padding-left: 20px;
+    }
+    .contact ul li a{
+        padding-left: 20px;
+        text-decoration: none;
+        color:#000000;
+    }
+    .contact ul li a:hover{
+        color:#2196F3;				
+    }
+
+    /*Main Section*/
+    /*Main Our Strengths*/
+    .main{
+        height: 600px;
+        top: 80px;
+        background-color: #2F303A;
+        /*background-color: var(--gray);*/
+        text-align: center;
+    }
+    .main h1{
+        font-family: Roboto, sans-serif;
+        font-size: 44px;
+        font-weight: 900;
+        line-height: 60px;
+        letter-spacing: 0.06em;
+        text-align: center;
+        color: #ffffff; 
+        /*color: var(--white); */
+    }
+    .main h1:hover{
+        font-size:47px;
+        color: #82d3cbbe; 
+    }
+    .mainFirst{
+        padding-top: 200px;
+    }
+    .main button {
+        background: #2196F3;
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.06em;
+        text-align: center;
+        border-radius: 15px;
+        border: none;
+    }
+    .main button:hover {
+        background: #99142f;
+        color: #6dd198;
+        font-size: 18px;
+    }
+
+    /* box-shadow: 10px 10px lightblue;*/
+    .MainOurStrengths{
+        display: inline-block;
+        /*padding-left: 80px; */
+        margin-top: 20px;
+        margin-left: 80px;
+        background-color: #efe8dd	;
+        box-shadow: 5px 10px #9a74389c;
+    }
+    .MainOurStrengths:hover{
+        rotate: -5deg;
+    }
+
+    /*Main What We Do*/
+    .WhatWeDo h2{
+        font-family: Roboto, sans-serif;
+        Weight: 700;
+        font-size: 36px;
+        line-height: 42.19px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .WhatWeDo img{
+        margin-top: 20px;
+        margin-left: 80px;
+        box-shadow: 5px 10px #9a74389c;
+    }
+    .WhatWeDo img:hover{
+        scale: 1.2;
+    }
+    /*Main Our Team*/
+    .ourTeam{
+        font-family: Roboto, sans-serif;
+        Weight: 700;
+        font-size: 36px;
+        line-height: 42.19px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .ourTeam figure{
+        Weight:500;
+        font-size:16px;
+        line-height: 18.75px;
+        display: inline-block;
+        box-shadow: 5px 10px #9a74389c;
+    }
+    .ourTeam figure:hover{
+        scale: 1.1;
+        box-shadow: 7px 12px #9a74389c;
+    }
+    /*Footer Section */
+    #Contacts{
+        background: #2F303A;
+        height: 251px;
+        margin-top: 25px;
+    }
+    .footerLogo{
+        padding-left: 215px;
+        padding-top: 60px;
+    }
+    .footerLogo .logo_2{
+        color: #FFFFFF;
+    }
+    .address{
+        padding-left: 215px;
+        padding-top: 20px;
+    }
+    .address p{
+        font-family: Roboto, sans-serif;
+        Weight:400;
+        font-size:14px;
+        line-height: 16.41px;
+        color: #FFFFFF;
+    }
+    .address ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+    .address ul li {
+        padding-top: 15px;
+    }
+    .address ul li a{
+        text-decoration: none;
+        font-family: Roboto , sans-serif;
+        Weight:400;
+        font-size:14px;
+        color: #FFFFFF;
+    }
+    .address ul li a:hover{
+        color: #2196F3;				
+    }
